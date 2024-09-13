@@ -1,7 +1,7 @@
 function printer(arr, start, end) {
     var s = "";
     for (var i = start; i <= end; i++) {
-        s = arr[i] + ' ';
+        s += arr[i] + " ";
     }
     console.log(s);
 }

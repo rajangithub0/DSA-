@@ -1,9 +1,9 @@
 function printer(arr: number[], start: number, end: number): void {
     let s = "";
     for (let i = start; i <= end; i++) {
-        s = arr[i] + ' ';
-    } console.log(s);
-
+        s += arr[i] + " ";
+    }
+    console.log(s);
 }
 
 function printAllSubarray(arr: number[]): void {
